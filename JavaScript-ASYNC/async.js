@@ -2,7 +2,7 @@
 
 // Function that reuturns a boolean if a number is divisible by 10
 
-var randomNum = 67; //Variable can be any random number
+var randomNum = 48; //Variable can be any random number
 function quotientOf10 (randomNum) { 
     return Boolean(randomNum % 10 == 0); // Boolean checks if randomNum value can be divisble by 10
 }
