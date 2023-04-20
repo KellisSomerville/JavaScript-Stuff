@@ -6,7 +6,7 @@ function spaceRemover(str1) {
 console.log(spaceRemover(str1)); // Logs the dates without any space between them
 
 // Function that reuturns a boolean if a number is divisible by 10
-var randomNum = 48; // Variable can be any random number
+var randomNum = 100; // Variable can be any random number
 function quotientOf10(randomNum) {
   return Boolean(randomNum % 10 == 0); // Boolean checks if randomNum value can be divisble by 10
 }
