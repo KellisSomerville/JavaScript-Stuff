@@ -29,4 +29,27 @@ let canDrive = hasLicense && hasCar; // Logical And has a higher precedence than
 
 console.log(canDrive);
 
+// Comparison Operators
+let age = 25;
+let isAdult = age >= 18;
 
+console.log(isAdult);
+
+// Modules Example
+let x = 4;
+let y = 22;
+
+console.log(y % x);
+
+// Increment and Decrement 
+let counter = 0;
+counter ++;
+
+console.log(counter);
+
+// Assignment Operator
+
+let total = 10;
+total += total;
+
+console.log(total);
