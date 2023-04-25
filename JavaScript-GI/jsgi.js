@@ -18,7 +18,7 @@ console.log(
   "characters."
 );
 
-MEDIUM
+// MEDIUM
 let speech = prompt("Type Anything");
 
 if (speech == speech.toLowerCase()) {

@@ -36,3 +36,25 @@ function sortNumbers(numbers) {
 
 console.log(sortNumbers(unsortedNumbers));
 // Output: [1, 2, 4, 5 , 8]
+
+// Arrow Functions
+
+// Regular Function
+var createGreeting = function (message, name) {
+  return message + "," + " " + name + ".";
+};
+
+// Arrow Function
+var createGreeting = (message, name) => {
+  return message + "," + " " + name + ".";
+};
+
+// If the arrow function body only contains one expression, we can ommit the curly braces and auto return
+var crateGreeting = (message, name) => message + "," + " " + name + ".";
+
+// If an arrow function only has one parameter, we can ommit the parenthises () around the single parameter
+var greet = (greeting) => console.log(greeting);
+
+var greeting = createGreeting("Wassup", "Kellis");
+
+greet(greeting);
