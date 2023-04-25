@@ -1,11 +1,12 @@
 // Function that removes negative numbers from an array
 
-let randomNumbsArray = [1, -9, 3, -7, -4, 2, -3, 8, -6]; // Random array of numbers
-let negativeNumbsRemoved = randomNumbsArray.filter(removeNegativeNumbs); // Applies the function by filtering out numbers greater than 0
-
-function removeNegativeNumbs(numbers) {
-    return numbers > 0; // Returns numbers in the array that are greater than 0
+let numbsArray = [1, -9, 3, -7, -4, 2, -3, 8, -6]; // Array of random numbers
+function removeNegativeNumbers(numbsArray) { // Function that removes negative numbers
+  return numbsArray.filter(function (positiveNumber) { // Filters numbers from the array
+    return positiveNumber > -1; // Returns numbers that are greater than -1
+  });
 }
 
-console.log(randomNumbsArray); // Logs the original array
-console.log("New Array:" + " " + negativeNumbsRemoved); // Logs the array without the negative numbers
+let filteredArray = removeNegativeNumbers(numbsArray); // The filtered array is what we got from the function
+
+console.log(filteredArray); 
