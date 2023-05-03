@@ -1,42 +1,42 @@
-// // Array of zoo animals
-// var zooAnimals = ["Tiger", "Elephant", "Rhino", "Panda"];
+// Array of zoo animals
+var zooAnimals = ["Tiger", "Elephant", "Rhino", "Panda"];
 
-// // Loop that goes through the array to print out each animal
-// for (var i = 0; i < zooAnimals.length; i++) {
-//   console.log(zooAnimals[i]);
-// }
+// Loop that goes through the array to print out each animal
+for (var i = 0; i < zooAnimals.length; i++) {
+  console.log(zooAnimals[i]);
+}
 
-// //===========================================================
+//===========================================================
 
-// // Loop from 0-4
-// for (var i = 0; i < 5; i++) {
-//   console.log("I Am Number" + " " + i + ".");
+// Loop from 0-4
+for (var i = 0; i < 5; i++) {
+  console.log("I Am Number" + " " + i + ".");
 
-//   // Equivalent
+  // Equivalent
 
-//   // console.log("I am 0");
-//   // console.log("I am 1");
-//   // console.log("I am 2");
-//   // console.log("I am 3");
-//   // console.log("I am 4");
-// }
+  // console.log("I am 0");
+  // console.log("I am 1");
+  // console.log("I am 2");
+  // console.log("I am 3");
+  // console.log("I am 4");
+}
 
-// // This is our starting myFarm array
-// var myFarm = ["goat", "cow", "horse", "bull", "chicken"];
+// This is our starting myFarm array
+var myFarm = ["goat", "cow", "horse", "bull", "chicken"];
 
-// // Created a variable to hold your ARRAY LENGTH
-// var arrayLength = myFarm.length;
+// Created a variable to hold your ARRAY LENGTH
+var arrayLength = myFarm.length;
 
-// // Looping through our myFarm array
-// for (var j = 0; j < arrayLength; j++) {
-//   // Console out the farm animal in the current index
-//   console.log(myFarm[j]);
+// Looping through our myFarm array
+for (var j = 0; j < arrayLength; j++) {
+  // Console out the farm animal in the current index
+  console.log(myFarm[j]);
 
-//   // The first character in the current farm but with the animals that start with the letter "c" or "o"
-//   if (myFarm[j].charAt(0) === "c" || myFarm[j].charAt(0) === "o") {
-//     console.log(myFarm[j]);
-//   }
-// }
+  // The first character in the current farm but with the animals that start with the letter "c" or "o"
+  if (myFarm[j].charAt(0) === "c" || myFarm[j].charAt(0) === "o") {
+    console.log(myFarm[j]);
+  }
+}
 
 // Arrays can store functions and then we can loop through functions
 function sayHello() {
