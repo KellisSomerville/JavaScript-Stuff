@@ -1,53 +1,53 @@
-// // EASY
-// function exercise(activity) {
-//   return function () {
-//     return "Today's exercise:" + " " + activity;
-//   };
-// }
-// var run = exercise("running");
-// console.log(run()); // prints "Today's exercise: running"
+// EASY
+function exercise(activity) {
+  return function () {
+    return "Today's exercise:" + " " + activity;
+  };
+}
+var run = exercise("running");
+console.log(run()); // prints "Today's exercise: running"
 
-// var swim = exercise("swimming");
-// console.log(swim()); // prints "Today's exercise: swimming"
+var swim = exercise("swimming");
+console.log(swim()); // prints "Today's exercise: swimming"
 
-// // MEDIUM
-// function cutPizzaSlices(totalSlices) {
-//   return function (slicesDivided) {
-//     var slices = totalSlices / slicesDivided;
-//     return "Each person gets" + " " + slices + " " + "slices of pizza.";
-//   };
-// }
+// MEDIUM
+function cutPizzaSlices(totalSlices) {
+  return function (slicesDivided) {
+    var slices = totalSlices / slicesDivided;
+    return "Each person gets" + " " + slices + " " + "slices of pizza.";
+  };
+}
 
-// var sharePizza = cutPizzaSlices(8);
-// console.log(sharePizza(2)); // prints "Each person gets 4.00 slices of pizza"
-// console.log(sharePizza(3)); // prints "Each person gets 2.67 slices of pizza"
+var sharePizza = cutPizzaSlices(8);
+console.log(sharePizza(2)); // prints "Each person gets 4.00 slices of pizza"
+console.log(sharePizza(3)); // prints "Each person gets 2.67 slices of pizza"
 
-// // HARD
-// function dataSecurity(firstName, lastName, age) {
-//   let ssn = "123-45-6789";
+// HARD
+function dataSecurity(firstName, lastName, age) {
+  let ssn = "123-45-6789";
 
-//   let pii = {
-//     getFirstName: function () {
-//       return firstName;
-//     },
-//     getLastName: function () {
-//       return lastName;
-//     },
-//     getAge: function () {
-//       return age;
-//     },
-//     getSSN: function () {
-//       return ssn;
-//     },
-//   };
-//   return pii;
-// }
+  let pii = {
+    getFirstName: function () {
+      return firstName;
+    },
+    getLastName: function () {
+      return lastName;
+    },
+    getAge: function () {
+      return age;
+    },
+    getSSN: function () {
+      return ssn;
+    },
+  };
+  return pii;
+}
 
-// let dataSecurityRandom = dataSecurity("Kellis", "Somerville", 22);
-// console.log(dataSecurityRandom.getFirstName()); // prints "Kellis"
-// console.log(dataSecurityRandom.getLastName()); // prints "Somerville"
-// console.log(dataSecurityRandom.getAge()); // prints "22"
-// console.log(dataSecurityRandom.getSSN()); // prints "123-45-6789"
+let dataSecurityRandom = dataSecurity("Kellis", "Somerville", 22);
+console.log(dataSecurityRandom.getFirstName()); // prints "Kellis"
+console.log(dataSecurityRandom.getLastName()); // prints "Somerville"
+console.log(dataSecurityRandom.getAge()); // prints "22"
+console.log(dataSecurityRandom.getSSN()); // prints "123-45-6789"
 
 // VERY HARD
 class Person {
