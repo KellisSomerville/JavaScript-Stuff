@@ -98,8 +98,6 @@ car.driveAroundTheWorld();
 car.runErrands();
 
 // Hard (1)
-
-
 function matchingBrackets(str) {
   let array = [];
 
