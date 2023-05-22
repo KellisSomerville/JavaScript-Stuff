@@ -1,4 +1,17 @@
 // Functions
+// (1) Allows us to not repeat code for the purpose of less errors for code (DRY method)
+
+// (1) example
+// Function that takes 2 numbers and returns the sum
+// Return statement gives values for the functions
+function sumFinder(x, y) {
+  return x + y;
+}
+console.log(sumFinder(1000, 2000));
+
+// (1) example using arrow function
+let sumFinderArrow = (x, y) => x + y;
+console.log(sumFinderArrow(1000, 2000));
 
 // Create a function called Adder, which is going to take 3 arguments
 function adder(x, y, z) {
@@ -49,3 +62,5 @@ function vowelChecker(x) {
 
 vowelChecker("Nah");
 vowelChecker("INCOMING!");
+
+
